@@ -1,5 +1,7 @@
 # MD to HTML
 
+https://codeship.com/projects/59535/status?branch=master
+
 ## Description
 
 Converts markdown files (.md) to html files (.html), using a library 'Marked'.
