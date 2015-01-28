@@ -4,7 +4,7 @@
   "description": "Convert md files to html, using \"marked\" lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "IvanRave",
   "license": "MIT",
@@ -12,6 +12,5 @@
     "marked": "^0.3.2"
   },
   "devDependencies": {
-    "jasmine-core": "^2.1.3"    
   }
 }
