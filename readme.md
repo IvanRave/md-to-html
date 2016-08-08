@@ -1,20 +1,20 @@
 # MD to HTML
 
-https://codeship.com/projects/59535/status?branch=master
 
-## Description
+## Usage
 
-Converts markdown files (.md) to html files (.html), using a library 'Marked'.
+```node index.js readme.md```
 
-http://github.com/chjj/marked/
+Converts markdown files (.md) to html files (.html), using a library [Marked](http://github.com/chjj/marked/)
 
 Then opens the result in your browser (by default chromium).
+
 
 ## Notes
 
 - To quick access set this alias in your ~/.bash_aliases:
 
-    ```alias 'mdhtml'='node ~/gitrepo/md-to-html/index '```
+    ```alias 'mdhtml'='node ~/md-to-html/index '```
 
 - Use a next command to generate and view a result file:
 

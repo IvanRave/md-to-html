@@ -1,6 +1,7 @@
 {
   "name": "md-to-html",
-  "version": "0.1.0",
+  "version": "0.3.0",
+  "repository": "git@github.com:IvanRave/md-to-html.git",
   "description": "Convert md files to html, using \"marked\" lib",
   "main": "index.js",
   "scripts": {
@@ -9,8 +10,6 @@
   "author": "IvanRave",
   "license": "MIT",
   "dependencies": {
-    "marked": "^0.3.2"
-  },
-  "devDependencies": {
+    "marked": "0.3.x"
   }
 }

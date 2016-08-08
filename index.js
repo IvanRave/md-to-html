@@ -2,6 +2,17 @@ var marked = require('marked');
 var fs = require('fs');
 var exec = require('child_process').exec;
 
+marked.setOptions({
+  renderer: new marked.Renderer(),
+  gfm: true,
+  tables: true,
+  breaks: false,
+  pedantic: false,
+  sanitize: true,
+  smartLists: true,
+  smartypants: false
+});
+
 var DEFAULT_BROWSER = 'chromium';
 
 var cbkExec = function(err) {
